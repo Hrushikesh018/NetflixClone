@@ -20,7 +20,7 @@ function Movies() {
       }
     };
     fetchMovies();
-  }, []);
+  }, [movies]);
   const handleCardClick = (movie) => {
     navigation(`/movie/${movie.id}`);
     };

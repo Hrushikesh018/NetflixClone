@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Nav.css';
 import { Link } from 'react-router-dom';
 
-function Navbar({ user }) {
+function Navbar() {
   const [show, handleShow] = useState(false);
 
   const handleScroll = () => {

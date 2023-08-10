@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import InputField from './InputField';
 import './LoginForm.css'; // Add the appropriate CSS file for styling
-import { Link, Routes, Route, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 
 const LoginForm = () => {
     const navigate = useNavigate();
-    const [user,setUser]=useState(null)
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -16,7 +15,7 @@ const LoginForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (email === "hrushikesh.1804@gmail.com" && password=== "123") {
-            setUser("Hrushikesh")
+            
             navigate('/Home');
         }
         // Handle login logic here
@@ -35,7 +34,7 @@ const LoginForm = () => {
 
                 <div className="help-links">
                     <span>Need help?</span>
-                    <span>New to Netflix? <a href="#">Sign up now.</a></span>
+                    <span>New to Netflix? Sign up now.</span>
                 </div>
             </div>
         </div>

@@ -3,8 +3,7 @@ import axios from './axios'
 import { useParams } from 'react-router-dom';
 import YouTube from 'react-youtube'; 
 import movieTrailer from 'movie-trailer';
-// import CardList from './CardList';
-// import './moviedetails.css';
+
 
 const MovieDetails = () => {
     const { id } = useParams();
