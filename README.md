@@ -1,3 +1,41 @@
+# Movie Streaming Application
+
+Welcome to the Movie Streaming Application! This application allows users to explore trending movies, watch trailers, and get details about movies they're interested in.
+
+## Table of Contents
+- [Introduction](#movie-streaming-application)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Browse trending movies.
+- Watch movie trailers.
+- Get detailed information about movies.
+- User-friendly navigation and UI.
+- Authentication and protected routes (not implemented in this example).
+
+## Getting Started
+
+### Prerequisites
+
+Before you start, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) - to run the application
+- [npm](https://www.npmjs.com/) - to manage packages
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/movie-streaming-app.git
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
