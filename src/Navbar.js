@@ -29,25 +29,25 @@ function Navbar() {
           src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png'
           alt='Netflix logo'
         />
-          <a href="/Home" className="nav_link px-2" style={{fontSize:"17px",fontFamily:"bold"}}>
-            Home
-          </a>
-          <a href="/movies" className="nav_link px-2" style={{fontSize:"17px",fontFamily:"bold"}}>
-            MovieDetails
-          </a>
-           
+        <a href="/Home" className="nav_link px-2" style={{ fontSize: "17px", fontFamily: "bold" }}>
+          Home
+        </a>
+        <a href="/movies" className="nav_link px-2" style={{ fontSize: "17px", fontFamily: "bold" }}>
+          MovieDetails
+        </a>
+        {/* <span className="nav_user" style={{ color: "white", marginRight: "50px" }}>Welcome,Hrushikesh </span> */}
+        <Link to="/" >
+          <img
+            className="nav_avatar"
+            src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'
+            alt='Netflix logo'
+          />
+        </Link>
 
       </div>
 
       <div>
-    <span className="nav_user" style={{color:"white",marginRight:"50px"}}>Welcome,Hrushikesh </span>
-    <Link to="/" >
-        <img
-        className="nav_avatar"
-          src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'
-          alt='Netflix logo'
-        />
-        </Link>
+
       </div>
     </div>
   );
